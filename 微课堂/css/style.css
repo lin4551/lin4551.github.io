@@ -1,0 +1,88 @@
+ul li{
+	list-style: none;
+}
+body{
+	font-size: 0.7rem;
+}
+.banner{
+	position: relative;
+	margin-top: 10px;
+}
+.banner-pic{
+	width:100%;
+	height:7rem;
+	background: url(../img/微课堂.png) no-repeat;		/*banner背景图*/
+	background-size:cover;
+}
+.banner-text{
+	position: relative;
+	width:50%;
+	margin: 0 auto;
+	font-weight: 600;
+	top: 25%;
+	font-family: "仿宋";
+}
+/**/
+.content{
+	height:100%;
+}
+.content-zc{
+	margin-top: 10px;
+	display: none;
+}
+.zc-show{
+	display: block;
+}
+.content-pic{
+	width:5rem;
+	height: 4rem;
+}
+.content-item{
+	
+}
+.item-zt{
+	color: #000;
+}
+.item-h{
+	font-size: 0.6rem;
+	font-weight: 600;
+	color: #fdd000;
+}
+
+.item-zj{
+	color: #000;
+	font-size: 0.8rem;
+}
+
+.item-zw{
+	color: #999;
+}
+.item-jieshao{
+	margin-top: 10px;
+	margin: ;
+}
+.item-btn{
+	font-size:0.6rem;
+	margin-top: 5px;
+	width: 100%;
+}
+nav{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10px;
+	font-size:0.6rem;
+}
+nav div{
+	text-align: center;
+	width: 4rem;
+	padding: 10px;
+	border-radius:1rem;
+	background: #fdd000;
+	color: rgb(51,51,51);
+}
+.active{
+	background: rgb(51,51,51);
+	color:#fdd000;
+}
+
+
